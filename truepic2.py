@@ -33,7 +33,7 @@ def mkdir(path):
         return False
 
 def get_which_pic():
-    print("输入搜索的漫画名:")
+    print("输入搜索的漫画的名称(支持模糊查询):")
     str=input()
     pr={"q":str}
     url="https://www.2animx.com/search-index?searchType=1"
